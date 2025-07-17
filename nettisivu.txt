@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Instako Oy – Isännöinti ja tekninen tuki</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+background-color: #f9f9f9;
+color: #333;
+}
+header, nav, footer {
+background-color: #004a80;
+color: white;
+padding: 1em;
+}
+nav a {
+color: white;
+margin-right: 1em;
+text-decoration: none;
+font-weight: bold;
+}
+nav a:hover {
+text-decoration: underline;
+}
+.container {
+max-width: 900px;
+margin: auto;
+padding: 2em;
+background-color: white;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2, h3 {
+color: #004a80;
+}
+section {
+margin-bottom: 2em;
+}
+.service, .testimonial, .post {
+border: 1px solid #ddd;
+padding: 1em;
+margin: 1em 0;
+border-radius: 5px;
+background-color: #f0f8ff;
+}
+.testimonial em {
+display: block;
+margin-top: 0.5em;
+font-style: normal;
+color: #666;
+}
+footer p {
+margin: 0;
+text-align: center;
+font-size: 0.9em;
+}
+.btn {
+display: inline-block;
+background-color: #0080c0;
+color: white;
+padding: 0.5em 1em;
+text-decoration: none;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+.btn:hover {
+background-color: #005f8c;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Instako Oy</h1>
+<p>Luotettavaa isännöintiä ja teknistä tukea taloyhtiöille</p>
+</header>
+
+<nav>
+<a href="#services">Palvelut</a>
+<a href="#about">Meistä</a>
+<a href="#testimonials">Referenssit</a>
+<a href="#blog">Blogi</a>
+<a href="#contact">Yhteystiedot</a>
+</nav>
+
+<div class="container">
+
+<section id="about">
+<h2>Meistä</h2>
+<p>Instako Oy perustettiin Helsingin alueella ja tarjoaa kiinteistönisännöintiä, teknistä isännöintiä sekä hallitustukea pienille ja keskisuurille taloyhtiöille. Toimintamme kulmakiviä ovat läpinäkyvyys, asiakaslähtöisyys ja selkeä hinnoittelu.</p>
+</section>
+
+<section id="services">
+<h2>Palvelumme</h2>
+<div class="service">
+<h3>Isännöinti</h3>
+<p>Kiinteähintainen isännöinti ilman piilokuluja – budjetointi on selkeää ja ennakoitavaa.</p>
+</div>
+<div class="service">
+<h3>Tekninen isännöinti</h3>
+<p>Remonttien ja korjaushankkeiden hallinta: urakkakilpailutus, valvonta ja laadunvarmistus.</p>
+</div>
+<div class="service">
+<h3>Hallitusapu</h3>
+<p>Tukea hallitustyöhön ilman jatkuvaa isännöintisopimusta: strategia, huoltosuunnitelmat, päätöksentuki.</p>
+</div>
+</section>
+
+<section id="testimonials">
+<h2>Asiakaspalautteita</h2>
+<div class="testimonial">
+<p>“Instako hoiti remontin aikataulussa ja budjetin mukaisesti – selkeää ja luotettavaa palvelua.”</p>
+<em>– Taloyhtiö X:n hallituksen puheenjohtaja</em>
+</div>
+<div class="testimonial">
+<p>“Isännöintimalli on yksinkertainen ja ennakoitava. Suosittelemme lämpimästi!”</p>
+<em>– Taloyhtiö Y:n hallitus</em>
+</div>
+</section>
+
+<section id="blog">
+<h2>Ajankohtaista blogista</h2>
+<div class="post">
+<h3>5 vinkkiä taloyhtiön vuosikokoukseen</h3>
+<p>Katso vinkkimme hallitustyöhön ja päätöksentekoon … <a href="#">Lue lisää »</a></p>
+</div>
+<div class="post">
+<h3>Energiansäästöremonttien suunnittelu</h3>
+<p>Kuinka taloyhtiö voi säästää energiaa järkevin toimin … <a href="#">Lue lisää »</a></p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Yhteystiedot</h2>
+<p>Sähköposti: <a href="mailto:info@instako.fi">info@instako.fi</a></p>
+<p>Puhelin: 09‑123 4567</p>
+<p>Toimisto avoinna arkisin klo 8–17.</p>
+<p><a class="btn" href="#contact">Ota yhteyttä »</a></p>
+</section>
+
+</div>
+
+<footer>
+<p>&copy; 2025 Instako Oy – Kiinteistönhallinnan ammattilainen</p>
+</footer>
+
+</body>
+</html>
